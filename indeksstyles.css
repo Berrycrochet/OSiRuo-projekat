@@ -175,3 +175,38 @@ footer {
   margin-top: 40px;
   border-top: 1px solid #222;
 }
+
+footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.95rem;
+  border-top: 1px solid #222;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.footer-section p {
+  margin: 0;
+  line-height: 1.6;
+  color: #bbb;
+}
