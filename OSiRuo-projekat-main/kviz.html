@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kviz Kartice</title>
+  <link rel="stylesheet" href="indeksstyles.css" />
+  <style>
+    .quiz-cards-section {
+      background-color: #111;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .quiz-cards-section h2 {
+      font-size: 36px;
+      color: #e50914;
+      margin-bottom: 40px;
+    }
+
+    .quiz-card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .quiz-card {
+      background-color: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 280px;
+      transition: transform 0.3s;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .quiz-card:hover {
+      transform: scale(1.05);
+    }
+
+    .quiz-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .quiz-card-content {
+      padding: 15px;
+    }
+
+    .quiz-card-content h3 {
+      color: #e50914;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .quiz-card-content p {
+      color: #ccc;
+      font-size: 15px;
+    }
+
+    .quiz-card a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">FilmZone</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="filmovi.html">Film</a></li>
+      <li><a href="Cjenovnik.html">Cjenovnik</a></li>
+      <li><a href="kvizovi.html" class="active">Kviz</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="quiz-cards-section">
+  <h2>Izaberi kviz i testiraj znanje</h2>
+
+  <div class="quiz-card-container">
+    
+    <a href="https://svijetfilma.eu/marvel-cinematic-universe-kviz-za-napredne/" target="_blank" class="quiz-card">
+      <img src="images/marvel.jfif" alt="Kviz o Marvel filmovima">
+      <div class="quiz-card-content">
+        <h3>Marvel Cinematic Universe</h3>
+        <p>Koliko znaš o Avengerima, Thanosu i superherojima?</p>
+      </div>
+    </a>
+
+    <a href="https://www.jabuka.tv/tag/filmski-kviz/" target="_blank" class="quiz-card">
+      <img src="images/filmskiklasici.jpg" alt="Kviz o klasicima">
+      <div class="quiz-card-content">
+        <h3>Filmski Klasici</h3>
+        <p>Testiraj svoje znanje o najpoznatijim klasicima Holivuda.</p>
+      </div>
+    </a>
+
+    <a href="https://quizpanda.com/hr/how-big-are-your-chances-of-surviving-in-a-horror-movie/" target="_blank" class="quiz-card">
+      <img src="images/ghost.webp" alt="Horor kviz">
+      <div class="quiz-card-content">
+        <h3>Horor Specijal</h3>
+        <p>Da li si spreman/na za mračnu filmsku avanturu?</p>
+      </div>
+    </a>
+
+    <a href="https://kvizoman.com/kviz-filmovi-i-tv-serije/#google_vignette" target="_blank" class="quiz-card">
+      <img src="images/serije.jpg" alt="Serije kviz">
+      <div class="quiz-card-content">
+        <h3>Serije i Filmovi  Specijal</h3>
+        <p>Kviz: filmovi i tv serije?</p>
+      </div>
+    </a>
+<a href="https://quizpanda.com/hr/which-anime-hero-am-i/" target="_blank" class="quiz-card">
+      <img src="images/anime.jpg" alt="Anime kviz">
+      <div class="quiz-card-content">
+        <h3>Anime  Specijal</h3>
+        <p>Koji si ti anime lik?</p>
+      </div>
+    </a>
+<a href="https://quizpanda.com/hr/how-big-are-your-chances-of-surviving-in-a-horror-movie/" target="_blank" class="quiz-card">
+      <img src="images/filmski kviz.webp" alt="Filmski kviz">
+      <div class="quiz-card-content">
+        <h3>Filmski Specijal</h3>
+        <p>Da li si spreman/na za filmsku avanturu?</p>
+      </div>
+    </a>
+<a href="https://wordwall.net/sh/resource/22926572/dc-comics-quiz" class="quiz-card">
+      <img src="images/DC.jpg" alt="DC kviz">
+      <div class="quiz-card-content">
+        <h3>DC Specijal</h3>
+        <p>Da li si spreman/na za DC filmsku avanturu?</p>
+      </div>
+    </a>
+<a href="https://teen385.dnevnik.hr/clanak/funzone/testovi/kviz-najtezi-kviz-o-harryju-potteru-koji-nitko-osim-najvecih-fanova-nece-moci-rijesiti-100---874518.html" target="_blank" class="quiz-card">
+      <img src="images/harry-potter-quiz.jpg" alt="Horor kviz">
+      <div class="quiz-card-content">
+        <h3>Harry Potter Specijal</h3>
+        <p>Da li si spreman/na za  filmsku avanturu?</p>
+      </div>
+    </a>
+<a href="https://zabavnik.com/zabava/filmovi-i-serije/domaca-kinematografija-kviz-26-deo-pogodi-nazive-uloga" target="_blank" class="quiz-card">
+      <img src="images/domace serije.jfif" alt="Domaće Serije kviz">
+      <div class="quiz-card-content">
+        <h3>Domaće Serije Specijal</h3>
+        <p>Pogodi nazive ULOGA u domaćim filmovima i serijama</p>
+      </div>
+    </a>
+<a href="https://www.vam.ac.uk/mused/films-shows/how-well-do-you-know-minecraft-movie-quiz/?srsltid=AfmBOoowvOlbBt0ULIwaujbSRp3_P-WURfs0SfVkhcG-W9n2nNIS64fC" target="_blank" class="quiz-card">
+      <img src="images/minecraft.jpg" alt="Minecraft kviz">
+      <div class="quiz-card-content">
+        <h3>Minecraft Specijal</h3>
+        <p>Da li si spreman/na za Minecraft avanturu?</p>
+      </div>
+    </a>
+    <a href="https://n1info.hr/magazin/kviz-koliko-zaista-dobro-poznajete-film-barbie/" target="_blank" class="quiz-card">
+      <img src="images/barbie.webp" alt="Barbie kviz">
+      <div class="quiz-card-content">
+        <h3>Barbie  Specijal</h3>
+        <p>Da li si spreman/na za Barbie avanturu?</p>
+      </div>
+    </a>
+    
+    <a href="https://zabavnik.com/zabava/filmovi-i-serije/knjiga-ili-film-kviz-da-li-su-po-tebi-bolje-knjige-ili-filmske-adaptacije" target="_blank" class="quiz-card">
+      <img src="images/filmknjigamix.jpg" alt="Film ili Knjige  kviz">
+      <div class="quiz-card-content">
+        <h3>Film i Knjige  Specijal</h3>
+        <p>Da li si spreman/na avanturu?</p>
+      </div>
+    </a>
+    
+
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 FilmLovers. Sva prava zadržana.
+</footer>
+
+</body>
+</html>
