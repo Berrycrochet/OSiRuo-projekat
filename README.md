@@ -1,5 +1,5 @@
 # OSiRuo-projekat
-Repository za OSiRuo. Studentice koje su radile na projektu: Berina Helvida, Dženana Šehić, Ajna Oparić  i Amina Kahrimanović.
+Repository za OSiRuO. Studentice koje su radile na projektu: Berina Helvida, Dženana Šehić, Ajna Oparić  i Amina Kahrimanović.
 # Film zona – Projekat iz OSiRuO
 
 **Film zona** je statička web aplikacija predstavljena kao dio projekta iz predmeta *Operativni sistemi i računarstvo u oblaku*. Cilj projekta je praktično prikazati znanje iz Linux komandne linije, Docker kontejnera i cloud okruženja.
