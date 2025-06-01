@@ -21,7 +21,7 @@ repository za OSiRuo ,studentice koje rade na projektu su Berina Helvida, Džena
 ## 📂 Sadržaj aplikacije
 
 Aplikacija se sastoji od više stranica:
-- `welcome.html` – početna ruta `/` sa porukom dobrodošlice
+- `index.html` – početna ruta `/` sa porukom dobrodošlice
 - `pocetna.html`- uvod u film zonu 
 - `filmovi.html` – lista filmova
 - `Cjenovnik.html` – prikaz cjenovnika
